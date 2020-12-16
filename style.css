@@ -1,0 +1,161 @@
+@keyframes nav-wel {
+  0%{
+    transform:translateX(-15vw);
+    /* move down 15 visual height units*/
+  }
+}
+.navbar{
+   background-color:rgba(5, 30, 255, 0.82);
+   position:fixed;
+   height:100vh;
+   text-decoration: none;
+   margin-top:-.4%;
+   width:10vw;
+   margin-left:-.6%;
+   z-index:1;
+   animation-name:nav-wel;
+   animation-duration:751ms;
+   animation-iteration-count:1;
+   align: center;
+ }
+
+
+ body {
+   background-image:url("background.jpg");
+   background-size:auto;
+ font-family: 'Varela', sans-serif;
+ }
+ .home {
+   background-color:rgba(0, 0, 0, 0.81);
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1vw;
+   margin-right: auto;
+
+
+ }
+ .home:hover{
+   /*what I am doing: If user hover, then apply this*/
+   background-color:rgba(238, 238, 238, 0.81);
+   color:black;
+
+ }
+ .media {
+   background-color:rgba(0, 0, 0, 0.81);
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1vw;
+   margin-right: auto;
+ }
+   .media:hover{
+     /*what I am doing: If user hover, then apply this*/
+   background-color:rgba(238, 238, 238, 0.81);
+   color:black;
+
+ }
+ .about {
+   background-color:rgba(0, 0, 0, 0.81);
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1vw;
+   margin-right: auto;
+
+ }
+   .about:hover{
+     /*what I am doing: If user hover, then apply this*/
+   background-color:rgba(238, 238, 238, 0.81);
+   color:black;
+/*https://www.w3schools.com/css/css_pseudo_classes.asp*/
+ }
+ .blog{
+   background-color:rgba(0, 0, 0, 0.81);
+   border: none;
+   color:white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1vw;
+   margin-right: auto;
+ }
+   .blog:hover{
+     /*what I am doing: If user hover, then apply this*/
+   background-color:rgba(238, 238, 238, 0.81);
+   color:black;
+
+ }
+
+ .contact {
+   background-color:rgba(0, 0, 0, 0.81);
+   border: none;
+   color:white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 1vw;
+   margin-right: auto;
+ }
+   .contact:hover{
+     /*what I am doing: If user hover, then apply this*/
+     color:black;
+   background-color:rgba(238, 238, 238, 0.81);
+ }
+   .main{
+   width:60%;
+   height:100%;
+   margin:auto;
+   margin-top:5%;
+ }
+ #StoreBox {
+   height: 32.5vh;
+   width: 15.5vw;
+   border-color: #1B1B1B;
+   border-width: 5px;
+   border-style: double;
+   /*  color: #f5f0f0; */
+   margin-top: 10vh;
+   margin-left: 1.35vw;
+   margin-bottom: 0%;
+   padding: 15px;
+   font-size: 13px;
+   float:left;
+   position:relative;
+ }
+ #StoreBox2 {
+   height: 32.5vh;
+   width: 15.5vw;
+   border-color: #1B1B1B;
+   border-width: 5px;
+   border-style: double;
+   /*  color: #f5f0f0; */
+   margin-top: 10vh;
+   margin-left: 20.35vw;
+   margin-bottom: 0%;
+   padding: 15px;
+   font-size: 13px;
+   float:left;
+   position:relative;
+ }
+ img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
